@@ -162,3 +162,73 @@ yarn
 ----
 
 > yarn add express mongodb mongoose mysql --save
+
+
+
+MongoDB
+--------
+MongoDB database is NoSQL database.
+
+  - MongoDB supports JSON(Java Scrript Object Notation).
+
+  - MongoDB database is ligth weight database.
+
+  - MongoDB by default running on port. 27017
+
+  - MongoDB follows the "mongodb" protocol
+
+
+Terminolgy
+----------
+
+			SQL 								NoSQL
+
+Ex.   Oracle,									MongoDB,
+      mysql										CassandraDB
+	  SQLServer
+
+	database									database
+
+	tables										collection
+
+	row											document
+
+	column										field
+
+	primarykey									_id
+
+
+CloudUrl after click on connect your applications"
+----------------------------------------------------
+mongodb+srv://admin:<password>@cluster0.c7zvp.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+mongodb+srv://admin:admin@cluster0.c7zvp.mongodb.net/nodejs?retryWrites=true&w=majority
+
+This url wil help to connect to mongodb database
+
+
+
+
+CRUD Operations
+---------------
+
+1) create the account with MongoDB Atlas
+
+	- MongoDB Atlas is cloud database platform
+
+	Website : https://www.mongodb.com/cloud/atlas
+
+	user : admin
+
+	password : admin
+	
+	database : nodejs
+
+	colletion : products
+
+
+    	Cloud URL : mongodb+srv://admin:admin@cluster0.nrkzg.mongodb.net/nodejs?retryWrites=true&w=majority
+
+
+	CRUD
+

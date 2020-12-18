@@ -41,3 +41,6 @@ app.get("/",(req,res)=> {
             app.listen(8080,()=>{
                console.log("server started");
             });
+
+//http://localhost:8080/     GET(in get--the link give to frontend dev) POSt
+//http://localhost:8080/demo  GET POST
